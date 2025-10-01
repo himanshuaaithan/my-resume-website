@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    background-color: #dad7d7;
+}
+
+.name {
+    height: 200px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(10, 40, 79);
+}
+
+.name h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.name h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.herosection {
+    height: 70%;
+    width: 100%;
+    padding: 40px 170px 0px 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dad7d7;
+}
+
+.aboutme {
+    height: 140px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutme h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.eduction {
+    height: 200px;
+    width: 100%;
+    padding: 20px 60px;
+background: linear-gradient(135deg, #e0f2fe, #bfdbfe); 
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.collage {
+    height: auto;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.school {
+    height: auto;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.page2 {
+    height: auto;
+    width: 100%;
+    background-color: #dad7d7;
+}
+
+.page2-herosection {
+    height: auto;
+    width: 100%;
+    padding: 10px 170px 0px 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills {
+    height: 250px;
+    width: 100%;
+    padding: 20px 60px;
+    background: linear-gradient(135deg, #3B82F6, #1E40AF);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.skills h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.skills h2 {
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.projects {
+    height: 300px;
+    width: 100%;
+    padding: 20px 60px;
+    background: linear-gradient(135deg, #8B5CF6, #4C1D95);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.projects h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.projects h2 {
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.projects h2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact {
+    height: 300px;
+    width: 100%;
+    padding: 20px 60px;
+    background: linear-gradient(135deg, #89F7FE, #66A6FF);
+    ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.contact h2 {
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0px;
+       font-weight: 500;
+}
+
+.contact h2 a {
+    text-decoration: none;
+    color: #000000;
+  
+}
+
+.copyright {
+    padding: 10px 0px;
+    margin-top: 20px;
+      background-color: rgb(10, 40, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright h1 {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+
+}
+
+.copyright h2 i {
+    font-size: 20x;
+}
+
+/* for mobail  */
+@media (max-width:480px) {
+    .page1{
+
+        height: 85%;
+    }
+    .name{
+       height: 180px;
+    }
+    .name h1 {
+        font-size: 35px 
+    } .name h2 {
+        font-size: 15px;
+    }
+    .herosection{
+        padding: 0px 10px;
+        height: 70%;
+    }
+    .eduction{
+         padding: 20px 0px;
+         height: auto;
+         gap: 10px;
+    }
+    .page2{
+        height: 70%;
+    }
+    .page2-herosection{
+         padding: 0px 10px;
+    }
+    .skills{
+        padding: 10px 0px;
+    }
+    .projects{
+         padding: 10px 0px;
+    }
+    .contact{
+        padding: 10px 0px ;
+    }
+    .contact h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+}
+/* teb  */
+@media (max-width:770px) {
+    .page1{
+
+        height: 85%;
+    }
+    .name{
+       height: 180px;
+    }
+    .name h1 {
+        font-size: 35px 
+    } .name h2 {
+        font-size: 15px;
+    }
+    .herosection{
+        padding: 0px 10px;
+        height: 70%;
+    }
+    .eduction{
+         padding: 20px 0px;
+         height: auto;
+         gap: 10px;
+    }
+    .page2{
+        height: 70%;
+    }
+    .page2-herosection{
+         padding: 0px 10px;
+    }
+    .skills{
+        padding: 10px 0px;
+    }
+    .projects{
+         padding: 10px 0px;
+    }
+    .contact{
+        padding: 10px 0px ;
+    }
+    .contact h2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
